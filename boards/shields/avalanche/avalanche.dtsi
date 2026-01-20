@@ -87,8 +87,8 @@
         label = "LEFT_ENCODER";
         a-gpios = <&pro_micro 9 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
         b-gpios = <&pro_micro 21 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-        resolution = <4>;
-        status = "enabled";
+        resolution = <20>;
+        status = "disabled";
     };
 
     right_encoder: encoder_right {
@@ -96,8 +96,8 @@
         label = "RIGHT_ENCODER";
         a-gpios = <&pro_micro 9 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
         b-gpios = <&pro_micro 21 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-        resolution = <4>;
-        status = "enabled";
+        resolution = <20>;
+        status = "disabled";
     };
 
     sensors {
