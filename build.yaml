@@ -24,6 +24,8 @@ include:
   - board:  nice_nano
     shield: avalanche_left
   - board: nice_nano
+    snippet: studio-rpc-usb-uart
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
     shield: avalanche_right
   - board: nice_nano
     shield: settings_reset
